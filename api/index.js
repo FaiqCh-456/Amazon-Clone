@@ -18,7 +18,7 @@ app.listen(port, () => {
 });
 
 mongoose
-    .connect("mongodb+srv://pitabaspradhan834:pitabasp934@cluster0.p6ocoqf.mongodb.net/amazon?retryWrites=true&w=majority")
+    .connect("mongodb+srv://faiqch834:faiqch@cluster0.p6ocoqf.mongodb.net/amazon?retryWrites=true&w=majority")
     .then(() => {
         console.log("Connected to MongoDB");
     })
